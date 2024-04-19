@@ -11,11 +11,15 @@ npm install
 
 Para modo desarrollador 
 
-npm run dev
+--npm run dev
 
 Para Compilar al ambiente real
 
-npm run build
+--npm run build
+
+Instalamos composer 
+
+--composer install
 
 
 
