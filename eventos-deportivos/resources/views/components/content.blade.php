@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Eventos deportivos | @yield('tittle')</title>
 
+    @vite(['resources/css/content.css'])
     @yield('css')
   </head>
   <body>

@@ -1,0 +1,38 @@
+.contenedor_principal{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor_principal .card{
+
+    padding: 40px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: max-content;
+    animation: cargando 2s;
+    transition: all 1s;
+}
+
+@keyframes cargando {
+    0% {
+        transform: translateY(-50%) translateX(-0%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%) translateX(-0%);
+        opacity: 1;
+    }
+}
+
+.contenedor_principal .card:hover{
+
+    transform: scale(0.9);
+
+}

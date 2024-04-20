@@ -1,0 +1,47 @@
+.nav-link{
+
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+#fooder{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#logo{
+    border-radius: 100%;
+}
+
+.navbar{
+
+
+    height: 100%;
+
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar b{
+
+    margin-left: 20px;
+}
+@media (max-width: 768px) {
+    .nav-link{
+
+
+        font-size: 20px;
+    }
+
+    .navbar a{
+        font-size: 20px;
+        color: white;
+    }
+}

@@ -2,9 +2,9 @@
 
 
 
-<ul class="nav justify-content-center">
+<ul class="nav justify-content-center  bg-dark" id="fooder">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Eventos</a>
+      <a class="nav-link" aria-current="page" href="#">Eventos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Equipos</a>
