@@ -4,18 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ParticipantesController extends Controller
+class EquiposController extends Controller
 {
     public function index(){
 
         //Consultar datos de la base de datos y mandar en el compact
         // return view('equipos.show',compact(''));
-        return view('participantes.show');
+        return view('equipos.show');
     }
 
 
     public function edit(Request $request){
 
-        return view('participantes.edit');
+
+        return view('equipos.edit');
     }
 }

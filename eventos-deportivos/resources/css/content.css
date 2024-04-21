@@ -27,6 +27,7 @@
     align-items: center;
     font-size: 30px;
     color: white;
+    font-weight: bold;
 }
 
 .navbar b{
@@ -44,4 +45,9 @@
         font-size: 20px;
         color: white;
     }
+}
+
+.contenedor_principal
+{
+    margin-bottom: 100px;
 }
